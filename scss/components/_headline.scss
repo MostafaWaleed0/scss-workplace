@@ -1,0 +1,25 @@
+.headline {
+  & + * {
+    --flow-space: var(--space-700);
+  }
+
+  p {
+    max-width: 43ch;
+  }
+
+  &[data-align="center"] {
+    text-align: center;
+
+    h1,
+    h2,
+    p {
+      margin-inline: auto;
+    }
+  }
+
+  &[data-headline-style="wide"] {
+    p {
+      max-width: 46ch;
+    }
+  }
+}

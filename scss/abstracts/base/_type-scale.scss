@@ -1,0 +1,13 @@
+@use "../function" as *;
+
+$type-scale: (
+  "100": clamp(0.603rem, 0.598rem + 0.023vi, 0.614rem),
+  "200": clamp(0.723rem, 0.705rem + 0.09vi, 0.768rem),
+  "300": clamp(0.868rem, 0.831rem + 0.186vi, 0.96rem),
+  "400": clamp(1.042rem, 0.977rem + 0.32vi, 1.2rem),
+  "500": clamp(1.25rem, 1.149rem + 0.505vi, 1.5rem),
+  "600": clamp(1.5rem, 1.348rem + 0.758vi, 1.875rem),
+  "700": clamp(1.8rem, 1.58rem + 1.098vi, 2.344rem),
+  "800": clamp(2.16rem, 1.848rem + 1.555vi, 2.93rem),
+  "900": clamp(2.592rem, 2.158rem + 2.162vi, 3.662rem),
+);

@@ -1,0 +1,13 @@
+@use "../function" as *;
+
+$spaces: (
+  "100": clamp(0.313rem, 0.287rem + 0.126vi, 0.375rem),
+  "200": clamp(0.625rem, 0.574rem + 0.253vi, 0.75rem),
+  "300": clamp(0.938rem, 0.862rem + 0.379vi, 1.125rem),
+  "400": clamp(1.25rem, 1.149rem + 0.505vi, 1.5rem),
+  "500": clamp(1.875rem, 1.723rem + 0.758vi, 2.25rem),
+  "600": clamp(2.5rem, 2.297rem + 1.01vi, 3rem),
+  "700": clamp(3.75rem, 3.446rem + 1.515vi, 4.5rem),
+  "800": clamp(5rem, 4.595rem + 2.02vi, 6rem),
+  "900": clamp(7.5rem, 6.892rem + 3.03vi, 9rem),
+);
